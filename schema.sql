@@ -53,4 +53,13 @@ CREATE TABLE dept_emp(
 	FOREIGN KEY (dept_no) REFERENCES departments (dept_no)
 );
 
+-- 7.2.3 
 SELECT * FROM departments;
+SELECT * FROM employees;
+SELECT * FROM dept_manager;
+SELECT * FROM salaries;
+SELECT * FROM titles;
+SELECT * FROM dept_emp;
+
+-- 7.2.4
+DROP TABLE employees CASCADE;
