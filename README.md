@@ -1,7 +1,12 @@
 # Pewlett-Hackard-Analysis :desktop_computer:
 
 ## Overview of the analysis  :older_adult:  :child:
-- The purpose is to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. The report summarizes the analysis and helps prepare for the “silver tsunami” as many current employees reach retirement age.
+
+###  - The purpose is to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. The analysis and summary will help prepare for the “silver tsunami” as many current employees reach retirement age.
+
+- **The employee database is laid out as follows:**
+
+![DB_Diagram](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
 
 ## Results :older_man:  :boy:
 
