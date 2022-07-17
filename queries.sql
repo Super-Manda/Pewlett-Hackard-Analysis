@@ -176,3 +176,102 @@ LEFT JOIN dept_emp as de
 ON ce.emp_no = de.emp_no
 GROUP BY de.dept_no
 ORDER BY de.dept_no;
+
+-- 7.3.5 Create Additional Lists
+
+-- List 1- Employee Information
+SELECT * FROM salaries
+ORDER BY to_date DESC;
+SELECT emp_no,
+    first_name,
+	last_name,
+    gender
+INTO emp_info
+FROM employees
+WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+
+-- "Now that our employees table has been filtered again and is being saved 
+-- into a new temporary table (emp_info), we need to join it to the salaries 
+-- table to add the to_date and Salary columns to our query... using a join"
+
+-- 7.3.5
+SELECT e.emp_no,
+    e.first_name,
+e.last_name,
+    e.gender,
+    s.salary,
+    de.to_date
+INTO emp_info
+FROM employees as e
+INNER JOIN salaries as s
+ON (e.emp_no = s.emp_no)
+--insert per module 7.3.5:
+INNER JOIN dept_emp as de
+ON (e.emp_no = de.emp_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (e.hire_date BETWEEN '1985-01-01' AND '1988-12-31')
+     AND (de.to_date = '9999-01-01');
+
+-- List 2: Management
+-- List of managers per department
+SELECT  dm.dept_no,
+        d.dept_name,
+        dm.emp_no,
+        ce.last_name,
+        ce.first_name,
+        dm.from_date,
+        dm.to_date
+INTO manager_info
+FROM dept_manager AS dm
+    INNER JOIN departments AS d
+        ON (dm.dept_no = d.dept_no)
+    INNER JOIN current_emp AS ce
+        ON (dm.emp_no = ce.emp_no);
+		
+-- List 3: Department Retirees
+SELECT ce.emp_no,
+ce.first_name,
+ce.last_name,
+d.dept_name
+-- INTO dept_info
+FROM current_emp as ce
+INNER JOIN dept_emp AS de
+ON (ce.emp_no = de.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no);
+
+-- 7.3.5 to be continued in 7.3.6 because:
+-- What's going on with the salaries?
+-- Why are there only five active managers for nine departments?
+-- Why are some employees appearing twice?
+
+
+-- 7.3.6 - Tailored Table  Skill Drills
+-- 1. Sales Team Table
+SELECT ri.emp_no,
+ri.first_name,
+ri.last_name,
+d.dept_name
+INTO sales_team
+FROM retirement_info as ri
+INNER JOIN  dept_emp AS de
+ON (ri.emp_no = de.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+WHERE d.dept_name = 'Sales';
+
+-- 7.3.6 Skill Drill continued
+-- 2. Sales and Development Tag-Team
+SELECT ri.emp_no,
+ri.first_name,
+ri.last_name,
+d.dept_name
+INTO sales_development_teams
+FROM retirement_info as ri
+INNER JOIN  dept_emp AS de
+ON (ri.emp_no = de.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+WHERE d.dept_name IN('Sales','Development');
+
