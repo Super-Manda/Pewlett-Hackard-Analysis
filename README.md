@@ -45,7 +45,7 @@
 
 - **2.  Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 
-- No, there are only 1,549 with the current parameter of those with birth dates in the year 1965, but I discuss below some ways to cope with that to make the program more successful by expanding the parameter.  
+- Depending upon interest level, there should be a very large number of mentors, but there are only 1,549 mentees with the current parameter of those with birth dates in the year 1965.  I discuss below some ways to cope with that to make the program more successful by expanding the parameter.  
 
 ### Two Additional Queries or Tables
 
@@ -59,6 +59,6 @@
 
 ![ControlSheets_Prospective_Backfill_Positions](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/prospective_backfill_positions_PNG.png)
 
-**2.  Secondly, we must address the mismatch between mentors and mentees.  Rather than limit this organization to the year 1965, if eligibility is expanded to include 1963 to 1965, then suddenly, it becomes apparent that there are 38,401 total employees who fit that criteria, of which there are 20,907 of them in the titles of Senior Engineer, Engineer, Asst. Engineer, and Technique Leader.  This will greatly enhance the success of the program, and there would still be a decade on average between the ones whose retirements appear more imminent (1952 to 1955) and this 1963 to 1965 group.  Everyone would therefore take one more promotion upward and then the organization could backfill with trainee Assistant Engineers.**  
+**2.  Secondly, we must address the mismatch between mentors and mentees.  Rather than limit this organization to the year 1965, if eligibility is expanded to include 1963 to 1965, then suddenly, it becomes apparent that there are 38,401 total employees who fit that mentee criteria, of which there are 20,907 of them in the titles of Senior Engineer, Engineer, Asst. Engineer, and Technique Leader.  This will greatly enhance the success of the program, and there would still be a decade on average between the ones whose retirements appear more imminent (1952 to 1955) and this 1963 to 1965 group.  Everyone would therefore take one more promotion upward and then the organization could backfill with trainee Assistant Engineers.**  
 
 ![expanded_eligibility](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/prospective_mentees_expanded_eligibility_PNG.png)
