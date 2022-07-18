@@ -12,25 +12,26 @@
 
 ### Four major points from the two analysis deliverables. 
 
--- 1.	First of all, some employees have taken promotions or title changes, so the duplicates were identified on the retirement_titles table and removed as shown:
+-- **1.	First of all, some employees have taken promotions or title changes, so the duplicates were identified on the retirement_titles table and removed as shown:**
 
 ![Retirement_Titles](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/retirement_titles_PNG.png)
 
 
-Then, using the birth years 1952 to 1955 as an approximation, the estimated number of distinct current employees eligible for retirement is 72,458.
+**Then, using the birth years 1952 to 1955 as an approximation, the estimated number of distinct current employees eligible for retirement is 72,458.  Here is the same table with the duplicates removed, and with only current employees included:**
+
+![unique_titles](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/unique_titles.png)
 
 
-
--- 2.	Using the birth year 1965 as an approximation, there would be 1,549 people who are eligible for the mentorship program; however, this is only using a one-year span.  This number could be expanded in theory if the mentee parameter is expanded; nevertheless, an excerpt of this current roster is as follows:
+-- **2.	Using the birth year 1965 as an approximation, there would be 1,549 people who are eligible for the mentorship program; however, this is only using a one-year span.  This number could be expanded in theory if the mentee parameter is expanded; nevertheless, an excerpt of this current roster is as follows:**
 
 ![Mentorship_Eligibility](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/mentorship_eligibility_PNG.png)
 
--- 3.	There are only 7 job titles that would be affected by the silver tsunami, which are: Senior Engineer; Engineer; Assistant Engineer; Technique Leader; Manager; Senior Staff; and Staff.  Of these, only 2 people are Managers, which suggests that this job title has gone obsolete.  Senior Engineer and Senior Staff are by far the most populous categories. 
+-- **3.	There are only 7 job titles that would be affected by the silver tsunami, which are: Senior Engineer; Engineer; Assistant Engineer; Technique Leader; Manager; Senior Staff; and Staff.  Of these, only 2 people are Managers, which suggests that this job title has gone obsolete.  Senior Engineer and Senior Staff are by far the most populous categories.** 
 
 ![Retiring_Titles](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/retiring_titles_PNG.png)
 
 
--- 4.	The technical titles of Senior Engineer, Engineer, Asst. Engineer, and Technique Leader would have 39,894 incumbents collectively, and these should ideally be the titles to target with the mentorship program because they are of more value to the company than generic jobs that can be learned from a textbook.  The technical jobs are likely associated with more institutional knowledge. 
+-- **4.	The technical titles of Senior Engineer, Engineer, Asst. Engineer, and Technique Leader would have 39,894 incumbents collectively, and these should ideally be the titles to target with the mentorship program because they are of more value to the company than generic jobs that can be learned from a textbook.  The technical jobs are likely associated with more institutional knowledge.** 
 
 
 ## Summary :older_woman:  :girl:
