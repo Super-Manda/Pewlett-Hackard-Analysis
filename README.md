@@ -33,6 +33,7 @@
 
 -- **4.	The technical titles of Senior Engineer, Engineer, Asst. Engineer, and Technique Leader would have 39,894 incumbents collectively, and these should ideally be the titles to target with the mentorship program because they are of more value to the company than generic jobs that can be learned from a textbook.  The technical jobs are likely associated with more institutional knowledge.** 
 
+![prospective_technical_mentorship](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/prospective_technical_mentors_PNG.png)
 
 ## Summary :older_woman:  :girl:
 
