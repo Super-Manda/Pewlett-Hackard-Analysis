@@ -2,7 +2,8 @@
 
 ## Overview of the analysis  :older_adult:  :child:
 
-###  - The purpose is to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. The analysis and summary will help prepare for the “silver tsunami” as many current employees reach retirement age.
+### 
+The purpose of this [SQL employee database file](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/Employee_Database_challenge.sql) is to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. The analysis and summary will help prepare for the “silver tsunami” as many current employees reach retirement age.
 
 - **The employee database is laid out as follows:**
 
