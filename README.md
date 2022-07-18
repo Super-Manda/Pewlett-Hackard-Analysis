@@ -36,6 +36,11 @@
 ![Mentorship_Eligibility](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/mentorship_eligibility_PNG.png)
 
 ### Two Additional Queries or Tables
+
+###
 - Gain more insight into the upcoming "silver tsunami."
 
-- 
+###
+**The control sheets of where these 72,458 positions are located will be quite helpful to HR when they conduct interviews because the same job title name may be used differently in different departments.  Thus, the following table would be more helpful to HR later:**
+
+![ControlSheets_Prospective_Backfill_Positions](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/prospective_backfill_positions_PNG.png)
