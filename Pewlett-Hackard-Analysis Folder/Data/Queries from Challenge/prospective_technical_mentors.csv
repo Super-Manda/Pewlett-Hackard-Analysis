@@ -1,0 +1,21 @@
+dept_name,title,count
+Research,Senior Engineer,75
+Research,Technique Leader,8
+Research,Assistant Engineer,3
+Research,Engineer,28
+Quality Management,Engineer,918
+Quality Management,Assistant Engineer,110
+Quality Management,Technique Leader,331
+Quality Management,Senior Engineer,2425
+Production,Assistant Engineer,454
+Production,Senior Engineer,11054
+Production,Technique Leader,1572
+Production,Engineer,3880
+Development,Senior Engineer,12302
+Development,Engineer,4439
+Development,Assistant Engineer,516
+Development,Technique Leader,1688
+Customer Service,Engineer,20
+Customer Service,Assistant Engineer,7
+Customer Service,Technique Leader,4
+Customer Service,Senior Engineer,60
