@@ -50,11 +50,15 @@
 ### Two Additional Queries or Tables
 
 ###
-**The department was added to the unique_titles table shown above so that HR can identify both the job title and the department code associated with each individual.  This is very critical.**
+**1.  Firstly, the department was added to the unique_titles table shown above so that HR can identify both the job title and the department code associated with each individual.  This is very critical.**
 
 ![Unique_Titles](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/unique_titles_plus_department_added_PNG.png)
 
 ###
-**The control sheets of where these 72,458 positions are located will also be quite helpful to HR when they conduct interviews because the same job title name may be used differently in different departments.  Thus, the following table would be more helpful to HR later:**
+**As a continuation, the control sheets of where these 72,458 positions are located will also be quite helpful to HR when they conduct interviews because the same job title name may be used differently in different departments.  Thus, the following table would be more helpful to HR later:**
 
 ![ControlSheets_Prospective_Backfill_Positions](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/prospective_backfill_positions_PNG.png)
+
+**2.  Secondly, we must address the mismatch between mentors and mentees.  Rather than limit this organization to the year 1965, if eligibility is expanded to include 1963 to 1965, then suddenly, it becomes apparent that there are 38,401 total employees who fit that criteria, of which there are 20,907 of them in the titles of Senior Engineer, Engineer, Asst. Engineer, and Technique Leader.  This will greatly enhance the success of the program, and there would still be a decade on average between the ones whose retirements appear more imminent (1952 to 1955) and this 1963 to 1965 group.  Everyone would therefore take one more promotion upward and then the organization could backfill with trainee Assistant Engineers.**  
+
+![expanded_eligibility](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/prospective_mentees_expanded_eligibility_PNG.png)
