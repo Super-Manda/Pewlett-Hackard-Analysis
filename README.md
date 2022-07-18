@@ -45,7 +45,7 @@
 
 - **2.  Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 
-- No, there are only 1,549 with the current parameter of those with birth dates in the year 1965.  
+- No, there are only 1,549 with the current parameter of those with birth dates in the year 1965, but I discuss below some ways to cope with that to make the program more successful by expanding the parameter.  
 
 ### Two Additional Queries or Tables
 
