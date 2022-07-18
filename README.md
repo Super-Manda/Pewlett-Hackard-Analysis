@@ -30,7 +30,7 @@ The purpose of this [SQL employee database file](https://github.com/Super-Manda/
 
 ![Mentorship_Eligibility](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/PNGs/mentorship_eligibility_PNG.png)
 
-[Mentorship_Eligibility_CSV](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Folder/Data/Queries%20from%20Challenge/retiring_titles.csv)
+[Mentorship_Eligibility_CSV](https://github.com/Super-Manda/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis%20Folder/Data/Queries%20from%20Challenge/mentorship_eligibility.csv)
 
 -- **3.	There are only 7 job titles that would be affected by the silver tsunami, which are: Senior Engineer; Engineer; Assistant Engineer; Technique Leader; Manager; Senior Staff; and Staff.  Of these, only 2 people are Managers, which suggests that this job title has gone obsolete.  Senior Engineer and Senior Staff are by far the most populous categories.** 
 
